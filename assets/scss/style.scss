@@ -7,7 +7,11 @@ $violet-dark: #221244;
 
 
 body {
-
+	.site-header .site-branding {
+		@media (min-width: 37.5em) {
+			padding-top: 100px;
+		}
+	}
 	.custom-header {
 		background: $blue-light url(https://2019-sinemorets.retreat.wordcamp.org/files/2019/07/sinemorets_header_bck.jpg);
 		height: 450px;
@@ -16,6 +20,9 @@ body {
 			background: url(https://2019-sinemorets.retreat.wordcamp.org/files/2019/07/sinemorets_header_bottom_bck.png);
 			background-size: cover;
 			height: 300px;
+			@media (max-width: 500px) {
+			    background-position: 49% bottom;
+			}
 		}
 	}
 	.main-navigation {
@@ -24,4 +31,5 @@ body {
 	.menu_english {
 		background: $violet-light;
 	}
+	
 }
