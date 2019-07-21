@@ -3,10 +3,14 @@ $blue2: #2285b8;
 $blue3: #0a6c94;
 
 
+body {
 
 .custom-header {
 	background: #1598a8 url(https://2019-sinemorets.retreat.wordcamp.org/files/2019/07/header1.jpg);
 	&:before {
 		background-image: unset;
 	}
+}
+
+
 }

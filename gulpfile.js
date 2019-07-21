@@ -10,8 +10,6 @@ var gulp = require('gulp'),
 gulp.task('browser-sync', function() {
 	var files = [
 		'./style.css',
-		'./assets/css/enthusiast.css',
-		'./assets/js/custom.js',
 		'./*.php',
 		'./**/*.php',
 		'./**/*.js'
