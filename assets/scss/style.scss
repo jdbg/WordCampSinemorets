@@ -44,7 +44,8 @@ body {
 		box-shadow: none;
 	}
 	.content-area .entry-header {
-		background: linear-gradient(180deg,rgba(0,0,0,0) calc(50% - 2px),rgba($blue-dark,1) calc(50%),rgba(0,0,0,0) calc(50% + 2px))
+		//background: linear-gradient(180deg,rgba(0,0,0,0) calc(50% - 2px),rgba($blue-dark,1) calc(50%),rgba(0,0,0,0) calc(50% + 2px));
+		background: none;
 	}
 	.button, button, input[type=button], input[type=reset], input[type=submit] {
 		background: $blue-mid;
