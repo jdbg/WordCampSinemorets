@@ -1,22 +1,27 @@
-$blue1: #1270ad;
-$blue2: #2285b8;
-$blue3: #0a6c94;
+$blue-light: #1270ad;
+$blue-mid: #2285b8;
+$blue-dark: #0a6c94;
+
+$violet-light: #332155;
+$violet-dark: #221244;
 
 
 body {
 
-.custom-header {
-	background: $blue1 url(https://2019-sinemorets.retreat.wordcamp.org/files/2019/07/sinemorets_header_bck.jpg);
-	height: 450px;
-	&:before {
-		background-image: unset;
-		background: url(https://2019-sinemorets.retreat.wordcamp.org/files/2019/07/sinemorets_header_bottom_bck.png);
-		background-size: cover;
-		height: 300px;
+	.custom-header {
+		background: $blue-light url(https://2019-sinemorets.retreat.wordcamp.org/files/2019/07/sinemorets_header_bck.jpg);
+		height: 450px;
+		&:before {
+			background-image: unset;
+			background: url(https://2019-sinemorets.retreat.wordcamp.org/files/2019/07/sinemorets_header_bottom_bck.png);
+			background-size: cover;
+			height: 300px;
+		}
 	}
-}
-.main-navigation {
-	background: $blue3;
-}
-
+	.main-navigation {
+		background: $blue-dark;
+	}
+	.menu_english {
+		background: $violet-light;
+	}
 }
