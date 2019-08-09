@@ -15,6 +15,8 @@ body {
 	.custom-header {
 		background: $blue-light url(https://2019-sinemorets.retreat.wordcamp.org/files/2019/07/sinemorets_header_bck.jpg);
 		height: 450px;
+		background-repeat: no-repeat;
+	    background-size: cover;
 		&:before {
 			background-image: unset;
 			background: url(https://2019-sinemorets.retreat.wordcamp.org/files/2019/07/sinemorets_header_bottom_bck.png);
